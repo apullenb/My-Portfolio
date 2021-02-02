@@ -8,7 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    box-shadow: gray 0px 4px 7px 1px;
+    box-shadow: rgba(83, 83, 83, 0.781) 4px 6px 3px 1px;
   }
   
   .navbar-container {
