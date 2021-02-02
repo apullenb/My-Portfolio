@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.App {
+    margin: 0 12%;
+    padding-bottom: 26%;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    
+  }
+  body {
+    
+    background: linear-gradient( rgba(222, 223, 208, 0.897), rgba(206, 207, 185, 0.795)), url('bgnews.jpg') ;
+    background-color: rgb(209, 198, 156);
+   
+  }
+
+ .header {
+     margin: 0;
+     padding: 15px 25px;
+    background-color: #b0b8bba9;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .header h1 {
+    font-family: 'Righteous', 'cursive';
+    font-size: 82px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 1px rgb(122, 122, 122);
+    color: rgb(61, 70, 78);
+ }
+
+ .header img {
+     width: 38%;
+     margin: 4px 3px;
+     border:rgb(122, 122, 122) 3px solid;
+ }
+ h2 {
+
+ }

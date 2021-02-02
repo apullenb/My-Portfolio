@@ -1,12 +1,26 @@
 import React from 'react'
-import HomeMain from '../../Components/HomeMain/HomeMain'
-import {homeObjOne} from './Data'
+import Header from '../../Components/Header'
+import Projects from '../../Components/Projects/Projects'
+import Sections from '../../Components/Sections/Sections'
+import {projOne, projThree, projTwo} from './Data'
 
 function Home() {
     return (
-        <>
-            <HomeMain {...homeObjOne} />
-        </>
+        <div>
+            <Header />
+        <div>
+
+            {/* -Sections instead of projects
+            -Create new style sheet with themes 
+            -Create an array of objects for each Section
+            -Create a theme for each section
+           - Create an array of objects for projects
+           - Create an array of objects for skills */}
+            <Sections {...projOne} />
+            <Sections {...projTwo} />
+            <Sections {...projThree} />
+        </div>
+        </div>
     )
 }
 

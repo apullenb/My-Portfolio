@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaFolderOpen } from "react-icons/fa";
 import { Button } from "../Button/Button";
 import './Navbar.css'
 import {IconContext} from 'react-icons/lib'
@@ -29,9 +29,9 @@ useEffect(() => {
     <>
     <IconContext.Provider value={{color: '#fff'}}>
       <div className="navbar">
-        <div className="navbar-container container">
+        <div className="navbar-container containers">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            Andrea Pullen
+           <FaFolderOpen />   Portfolio
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}
