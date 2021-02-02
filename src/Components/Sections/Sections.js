@@ -6,8 +6,6 @@ import './Sections.css'
 function Sections({
     theme,
     topLine,
-    lightText,
-    lightTextDesc,
     headline,
     description,
     buttonLabel,
@@ -17,44 +15,31 @@ function Sections({
   }) {
     return (
         <div>
-            <div className={theme} >
-        <div className="container" >
-          <div
-            className="row projects-row"
+            <div className={`section ${theme}`}          
             style={{
-              display: "flex",
               flexDirection: imgStart === "start" ? "row-reverse" : "row",
             }}
           >
-            <div className="col" >
-              <div className="projects-text-wrapper" >
-                <div className="top-line">{topLine}</div>
-                <h1 className={lightText ? "heading" : "heading dark"}>
+          
+              <div className="section-content" >
+                <h1 className='heading'>
                   {headline}
                 </h1>
-                <p
-                  className={
-                    lightTextDesc
-                      ? "projects-subtitle"
-                      : "projects-subtitle dark"
-                  }
-                >
+                <h4>
                   {description}
-                </p>
+                </h4>
                 <Link to="/">
                   <Button buttonSize="btn-wide" buttonColor="blue">
                     {buttonLabel}
                   </Button>
                 </Link>
               </div>
-            </div>
-            <div className="col">
-              <div className="projects-img-wrapper">
-                <img src={img} alt={alt} className="projects-img" />
+            
+              <div className="section-img-box">
+                <img src={img} alt={alt} />
               </div>
-            </div>
-          </div>
-        </div>
+            
+        
       </div>
         </div>
     )

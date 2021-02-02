@@ -1,5 +1,5 @@
 export const projOne = {
-    theme: 'ltBlue',
+    theme: 'manilla',
     topLine: 'Full Stack Developer',
     headline: 'About Me',
     description: 'lots of things and stuff',
@@ -9,7 +9,7 @@ export const projOne = {
     alt: 'image'
 }
 export const projTwo = {
-    theme: 'dkBlue',
+    theme: 'gray',
     topLine: 'Full Stack Developer',
     headline: 'Skills',
     description: 'lots of things and stuff',
@@ -19,7 +19,7 @@ export const projTwo = {
     alt: 'image'
 }
 export const projThree = {
-    theme: 'ltBlue',
+    theme: 'dkBlue',
     topLine: 'Full Stack Developer',
     headline: 'Projects',
     description: 'lots of things and stuff',

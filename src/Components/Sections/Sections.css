@@ -1,14 +1,90 @@
-.ltBlue {
-    background-color: #a6c2bddc;
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+.ltBlue {
+    background-color: #88c0bd;
+    color:#3d4e53;
+   
+}
+.ltBlue .heading {
+    color:#3d4e53;
+    font-family: 'Righteous', 'cursive';
+    font-size: 75px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 2px 3px 1px rgb(122, 122, 122);
+}
 
 .dkBlue {
     background-color:#3d4e53;
-   
+    color:rgb(209, 205, 181);
+    
 }
 
 .dkBlue .heading {
-    color: white;
+    color: rgb(212, 210, 194);
+    font-family: 'Righteous', 'cursive';
+    font-size: 75px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 2px 3px 1px rgb(122, 122, 122);
+}
+
+.manilla {
+    padding: 15px 1px;
+    background-color: rgba(221, 218, 202, 0.904);
+}
+.manilla .heading {
+    font-family: 'Righteous', 'cursive';
+    color: rgba(192, 89, 58, 0.856);
+    font-size: 75px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 2px 3px 1px rgb(122, 122, 122);
+}
+
+.gray {
+    background-color: #c8cdcefb;
+}
+
+
+.gray .heading {
+    color: rgba(192, 89, 58, 0.856);
+    font-family: 'Righteous', 'cursive';
+    font-size: 75px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 2px 3px 1px rgb(156, 154, 154);
+}
+
+.section {
+    margin: 0;
+    padding: 8px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+}
+.section-content {
+    padding: 3px;
+    margin: 5px 4%;
+}
+
+h3 {
+   font-family: 'Righteous', 'cursive';
+   margin: 1px;
+   font-size: 37px;
+   font-weight: 500;
+   color: rgb(61, 70, 78);
+   letter-spacing: normal;
+   text-shadow: 2px 3px 1px rgb(211, 207, 179);
+}
+
+.section-img-box {
+    width: 35%;
+    min-width: 200px;
+    padding:8px 5px;
+}
+.section img {
+    width: 100%;
+    margin: 10px 5px;
 }
