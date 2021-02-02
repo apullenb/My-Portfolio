@@ -12,6 +12,7 @@
     font-weight: 600;
     letter-spacing: 1px;
     text-shadow: 2px 3px 1px rgb(122, 122, 122);
+    
 }
 
 .dkBlue {
@@ -35,18 +36,31 @@
 }
 .manilla .heading {
     font-family: 'Righteous', 'cursive';
-    color: rgba(192, 89, 58, 0.856);
+    color: #88c0bd;
     font-size: 75px;
     font-weight: 500;
     letter-spacing: 1px;
-    text-shadow: 2px 3px 1px rgb(122, 122, 122);
+    text-shadow: 4px 5px 3px rgba(192, 89, 58, 0.897);
+    filter: drop-shadow(2px 2px 1px #3d4e53) ;
 }
 
 .gray {
     background-color: #c8cdcefb;
 }
 
+.orange {
+    background-color:rgba(192, 89, 58, 0.884) ;
+}
 
+.orange .heading {
+    color: #3d4e53;
+    font-family: 'Righteous', 'cursive';
+    font-size: 75px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 2px 3px 1px #94c2c0;
+    filter: drop-shadow(2px 2px 1px #5e6d72) ;
+}
 .gray .heading {
     color: rgba(192, 89, 58, 0.856);
     font-family: 'Righteous', 'cursive';
@@ -87,4 +101,26 @@ h3 {
 .section img {
     width: 100%;
     margin: 10px 5px;
+}
+
+.skills-section {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-content: center;
+flex-wrap: wrap;
+margin:1%;
+background-color:rgb(187, 145, 132) ;
+}
+
+.skill-box {
+    display:flex;
+    flex-direction: column;
+    max-width: 120px;
+    margin: 5px;
+    padding: 6px;
+    text-align: center;
+}
+.skill-box img {
+    filter: drop-shadow( 3px 2px 3px rgb(77, 76, 76));
 }

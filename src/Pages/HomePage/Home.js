@@ -2,9 +2,10 @@ import React from 'react'
 import Header from '../../Components/Header'
 import Projects from '../../Components/Projects/Projects'
 import Sections from '../../Components/Sections/Sections'
-import {projOne, projThree, projTwo} from './Data'
+import sections from './Data'
 
 function Home() {
+    
     return (
         <div>
             <Header />
@@ -16,9 +17,9 @@ function Home() {
             -Create a theme for each section
            - Create an array of objects for projects
            - Create an array of objects for skills */}
-            <Sections {...projOne} />
-            <Sections {...projTwo} />
-            <Sections {...projThree} />
+
+           {sections.map((section, i) => {
+         return <Sections section={section}/>})}
         </div>
         </div>
     )
