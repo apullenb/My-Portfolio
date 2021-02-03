@@ -1,5 +1,5 @@
 :root {
-    --primary: #fff
+    --primary: rgba(192, 89, 58, 0.884)
 }
 
 .btn {
@@ -12,7 +12,7 @@
 }
 
 .btn-primary {
-    background-color: var(--primary);
+    background-color: rgba(192, 89, 58, 0.884);
     color: black;
     border: 1px solid var(--primary)
 }
@@ -60,16 +60,16 @@
 }
 
 .blue {
-    background-color: #0e5972;
+    background-color: #2d545f;
     border: none;
     border-radius: 5px;
-    color:#fff;
+    color:rgb(245, 240, 234);
 }
 
 .primary {
-    background-color: rgb(175, 59, 6);
+    background-color: rgb(233, 222, 205);
     border:none;
-    color:#fff;
+    color:rgb(57, 80, 83);
 }
 .primary:hover {
     background-color: rgb(85, 54, 14);

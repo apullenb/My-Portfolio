@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Button } from "../Button/Button";
 import Projects from "./Projects";
 import "./Sections.css";
 import Skills from "./Skills";
@@ -15,8 +13,10 @@ function Sections(props) {
     description3,
     img2,
     img,
+    img3,
     alt,
     items,
+    sign
   } = props.section;
 
 
@@ -27,17 +27,21 @@ function Sections(props) {
         style={{
           flexDirection: imgStart === "start" ? "row-reverse" : "row",
         }}
-      >  {img2 && <img src={img2} alt={alt} className='img2' />}
+      >  {img2 && <img src={img2} alt='retroback' className='img2' />}
         <div className="section-content">
        
         <h1 className="heading">{headline}</h1>
        
           <p>{description}</p>
           <p>{description2}</p>
-          <p>{description3}</p>
+          <p>{description3} </p>
+          <span className='sign'>{sign}</span>
+          
         </div>
         <div className="section-img-box">
+        {img3 && <img src={img3} alt='image3' id='b' />}
           <img src={img} alt={alt} id='b' />
+          
           
         </div>
         <div>

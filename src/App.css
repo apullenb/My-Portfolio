@@ -45,7 +45,20 @@
     filter: drop-shadow(2px 2px 1px #723919) ;
     color: rgb(224, 219, 186);
     margin: 1px;
-    
+ }
+
+ .icons {
+     font-size: 35px;
+     text-align: center;
+     padding-top: 15px;
+     margin: 29px 21px 2px 29px; 
+     border-top:rgb(122, 122, 122) 5px dotted;
+ }
+ .icon {
+     color:  rgb(63, 63, 63);
+     padding: 3px 20px;
+     margin: 2px 1px 2px 9px; 
+     filter: drop-shadow(2px 2px 1px rgb(224, 219, 186)) ;
  }
  h3 {
     font-family: 'Righteous', 'cursive';
@@ -80,8 +93,8 @@
 }
 
 .contact {
-    background-color:#3d4e53;
-    color:rgb(209, 205, 181);
+    border-bottom: 6px dotted #94c2c0;
+  
 }
 
 .contact .heading {
@@ -94,7 +107,54 @@
     text-shadow: 2px 3px 1px rgb(122, 122, 122);
 }
 
+.form {
+    
+    padding-right: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    color:rgb(233, 231, 218);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px 8px;
+}
 
+input[type=text], input[type=textarea]{
+    width: 100%;
+    padding: 5px 1px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    background-color:rgb(199, 196, 179) ;
+    border: 3px solid #5a8b99;
+    box-shadow: 1px 1px 1px  #94c2c0;
+    filter: drop-shadow( 2px 2px 1px rgba(192, 89, 58, 0.884)) ;
+  }
+  input[type=textarea] {
+    height: 75px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: #4c7a88 ;
+  }
+  .form button {
+    width: 100%;
+    padding: 5px 20px;
+    margin: 8px 0px;
+    background-color:#5a8b99 ;
+    border: 2px solid #5a8b99;
+    filter: drop-shadow( 2px 2px 1px  rgba(192, 89, 58, 0.884)) ;
+    margin: 4px 2px;
+    color: rgb(233, 231, 218);
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.4 ease-out;
+  }
+  .form button:hover {
+    background-color:rgba(192, 89, 58, 0.884) ;
+    filter: drop-shadow( 2px 2px 1px  #5a8b99) ;
+    border:2px solid rgb(233, 231, 218);
+    transition: all 0.4 ease-out;
+  }
 
 @media screen and (max-width: 920px) {
     .header-img2 {
