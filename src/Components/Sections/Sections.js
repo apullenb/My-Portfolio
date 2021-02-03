@@ -31,7 +31,7 @@ function Sections(props) {
           <p>{description}</p>
         </div>
         <div className="section-img-box">
-          <img src={img} alt={alt} />
+          <img src={img} alt={alt} id='b' />
         </div>
         <div>
         {items.length > 8 ? ( <div className='skills-section'> 

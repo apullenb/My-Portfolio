@@ -1,4 +1,5 @@
 import React from 'react'
+import Contact from '../../Components/Contact'
 import Header from '../../Components/Header'
 import Projects from '../../Components/Sections/Projects'
 import Sections from '../../Components/Sections/Sections'
@@ -10,17 +11,11 @@ function Home() {
         <div>
             <Header />
         <div>
-
-            {/* -Sections instead of projects
-            -Create new style sheet with themes 
-            -Create an array of objects for each Section
-            -Create a theme for each section
-           - Create an array of objects for projects
-           - Create an array of objects for skills */}
-
            {sections.map((section, i) => {
          return <Sections section={section}/>})}
+         <Contact />
         </div>
+
         </div>
     )
 }

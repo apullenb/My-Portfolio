@@ -110,28 +110,25 @@ const skills =  [
     alt: 'image',
     items: ''
 },
+
+ {
+    theme: 'dkBlue',
+    headline: 'Projects',
+    imgStart: '',
+    img:'/images/img2.jpg',
+    alt: 'image',
+    items: projects
+},
  {
     theme: 'orange',
     topLine: 'Full Stack Developer',
     headline: 'Skills',
-    description: 'lots of things and stuff',
     buttonLabel: 'Contact Me',
     imgStart: 'start',
     img:'/images/img3.jpg',
     alt: 'image',
     items: skills
 },
- {
-    theme: 'dkBlue',
-    topLine: 'Full Stack Developer',
-    headline: 'Projects',
-    description: 'lots of things and stuff',
-    buttonLabel: 'Contact Me',
-    imgStart: '',
-    img:'/images/img2.jpg',
-    alt: 'image',
-    items: projects
-}
 ]
 
 
