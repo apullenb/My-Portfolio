@@ -1,26 +1,31 @@
-
 import React from "react";
-import { useForm } from '@formspree/react';
-import '../App.css'
+import { useForm } from "@formspree/react";
+import "../App.css";
 
 function Form() {
- 
-  const [state, handleSubmit] = useForm('xpzonrel');
+  const [state, handleSubmit] = useForm("xpzonrel");
   if (state.succeeded) {
     return <div>Your Message Has Been Submitted! Thank You!</div>;
   }
   return (
-    <form className='form' onSubmit={handleSubmit}>
-     
-     <label>Name:</label>
+    <form className="form" onSubmit={handleSubmit}>
+      <label>
+        Name:
         <input type="text" name="name" />
-        <label>Email:</label>
+      </label>
+      <label>
+        Email:
         <input type="text" name="email" />
-        <label>Message:</label>
+      </label>
+      <label>
+        Message:
         <input type="textarea" name="message" />
-      <button type="submit" disabled={state.submitting}>Submit</button>
+      </label>
+      <button type="submit" disabled={state.submitting}>
+        Submit
+      </button>
     </form>
-  )
+  );
 }
 
-export default Form
+export default Form;

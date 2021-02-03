@@ -1,89 +1,90 @@
 :root {
-    --primary: rgba(192, 89, 58, 0.884)
+  --primary: rgba(192, 89, 58, 0.884);
 }
 
 .btn {
-    padding: 8px 20px;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    white-space: nowrap;
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
 }
 
 .btn-primary {
-    background-color: rgba(192, 89, 58, 0.884);
-    color: black;
-    border: 1px solid var(--primary)
+  background-color: rgba(192, 89, 58, 0.884);
+  color: black;
+  border: 1px solid var(--primary);
 }
 
 .btn-outline {
-    background-color: transparent;
-    color: #fff;
-    padding: 8px 20px;
-    border: 1px solid var(--primary);
-    transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
 }
 
 .btn-medium {
-    padding: 8px 20px;
-    font-size: 18px;
+  padding: 8px 20px;
+  font-size: 18px;
 }
 
 .btn-large {
-    padding: 8px 20px;
-    font-size: 20px;
+  padding: 8px 20px;
+  font-size: 20px;
 }
 
 .btn-mobile {
-    text-align: center;
-    border-radius: 4px;
-    width: 80%;
-    text-decoration: none;
-    font-size: 24px;
-    background-color: transparent;
-    color: #fff;
-    padding: 14px 20px;
-    border: 1px solid #fff;
-    transition: all 0.3s ease-out;
+  text-align: center;
+  border-radius: 4px;
+  width: 80%;
+  text-decoration: none;
+  font-size: 24px;
+  background-color: transparent;
+  color: #fff;
+  padding: 14px 20px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
 }
 
 .btn-wide {
-    padding: 12px 64px;
-    font-size: 20px;
+  padding: 12px 64px;
+  font-size: 20px;
 }
 
-.btn-large:hover, .btn-medium:hover, .btn-mobile:hover {
-    transition: all 0.3s ease-out;
-    background: #fff;
-    color: black;
+.btn-large:hover,
+.btn-medium:hover,
+.btn-mobile:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: black;
 }
 
 .blue {
-    background-color: #2d545f;
-    border: none;
-    border-radius: 5px;
-    color:rgb(245, 240, 234);
+  background-color: #2d545f;
+  border: none;
+  border-radius: 5px;
+  color: rgb(245, 240, 234);
 }
 
 .primary {
-    background-color: rgb(233, 222, 205);
-    border:none;
-    color:rgb(57, 80, 83);
+  background-color: rgb(233, 222, 205);
+  border: none;
+  color: rgb(57, 80, 83);
 }
 .primary:hover {
-    background-color: rgb(85, 54, 14);
-    border:none;
-    color:#fff;
+  background-color: rgb(85, 54, 14);
+  border: none;
+  color: #fff;
 }
 
 .btn-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    padding: 8px 16px;
-    height: 100%;
-    width: 100%;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
 }

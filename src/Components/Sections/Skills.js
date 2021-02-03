@@ -1,20 +1,16 @@
-import React from 'react'
+import React from "react";
 
 function Skills(props) {
-const skill = props.skill
+  const skill = props.skill;
 
-    return (
-        <div className='skills-section'>
-            <div className='skill-box'>
-            <img src={skill.img} alt={skill.alt} />
-            <p>{skill.name}</p>
-            </div>
-        </div>
-    )
+  return (
+    <div className="skills-section">
+      <div className="skill-box">
+        <img src={skill.img} alt={skill.alt} />
+        <p>{skill.name}</p>
+      </div>
+    </div>
+  );
 }
 
-export default Skills
-
-
-
-
+export default Skills;

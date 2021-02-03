@@ -16,9 +16,8 @@ function Sections(props) {
     img3,
     alt,
     items,
-    sign
+    sign,
   } = props.section;
-
 
   return (
     <div>
@@ -27,32 +26,40 @@ function Sections(props) {
         style={{
           flexDirection: imgStart === "start" ? "row-reverse" : "row",
         }}
-      >  {img2 && <img src={img2} alt='retroback' className='img2' />}
+      >
+        {" "}
+        {img2 && <img src={img2} alt="retroback" className="img2" />}
         <div className="section-content">
-       
-        <h1 className="heading">{headline}</h1>
-       
+          <h1 className="heading">{headline}</h1>
+
           <p>{description}</p>
           <p>{description2}</p>
           <p>{description3} </p>
-          <span className='sign'>{sign}</span>
-          
+          <span className="sign">{sign}</span>
         </div>
         <div className="section-img-box">
-        {img3 && <img src={img3} alt='image3' id='b' />}
-          <img src={img} alt={alt} id='b' />
-          
-          
+          {img3 && <img src={img3} alt="image3" id="b" />}
+          <img src={img} alt={alt} id="b" />
         </div>
         <div>
-        {items.length > 8 ? ( <div className='skills-section'> 
-            {items.map((item, i) => {
-              return <Skills skill={item} key={i} />
-            })}</div>) : ('')}
-            {items.length === 3 ? ( <div className='projects-section'> 
-            {items.map((item, i) => {
-              return <Projects project={item} key={i} />
-            })}</div>) : ('')}
+          {items.length > 8 ? (
+            <div className="skills-section">
+              {items.map((item, i) => {
+                return <Skills skill={item} key={i} />;
+              })}
+            </div>
+          ) : (
+            ""
+          )}
+          {items.length === 3 ? (
+            <div className="projects-section">
+              {items.map((item, i) => {
+                return <Projects project={item} key={i} />;
+              })}
+            </div>
+          ) : (
+            ""
+          )}
         </div>
       </div>
     </div>
