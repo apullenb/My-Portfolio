@@ -13,13 +13,13 @@ function Header() {
         <h3>I'm Andrea Pullen,</h3>
         <h3> a full-stack software developer.</h3>
         <div className="icons">
-          <a href="https://github.com/apullenb">
+          <a href="https://github.com/apullenb" target='blank'>
             <FaGithub className="icon" />
           </a>
-          <a href="https://www.linkedin.com/in/andrea-pullen/">
+          <a href="https://www.linkedin.com/in/andrea-pullen/"  target='blank'>
             <FaLinkedin className="icon" />
           </a>
-          <a href="https://zety.com/profile/andrea-pullen">
+          <a href="https://zety.com/profile/andrea-pullen" target='blank'>
             <FaLink className="icon" />
           </a>
         </div>

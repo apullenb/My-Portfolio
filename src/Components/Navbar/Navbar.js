@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import { FaBars, FaTimes, FaFolderOpen } from "react-icons/fa";
 import "./Navbar.css";
 import { IconContext } from "react-icons/lib";
@@ -28,42 +27,41 @@ function Navbar() {
     <>
       <IconContext.Provider value={{ color: "rgb(240, 237, 219)" }}>
         <div className="navbar">
-          <div className="navbar-container containers">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <div className="navbar-container containers" id='top'>
+            <a href="#top" className="navbar-logo" onClick={closeMobileMenu}>
               <FaFolderOpen /> Portfolio
-            </Link>
+            </a>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                <a href="/" className="nav-links" onClick={closeMobileMenu}>
                   Home
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                <a href='#About Me' className="nav-links" onClick={closeMobileMenu}>
                   About Me
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                <a href="/#Projects" className="nav-links" onClick={closeMobileMenu}>
                   Projects
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
                 {button ? (
-                  <Link to="/contact" className="nav-links">
+                  <a href="#contact" className="nav-links">
                     Contact Me
-                  </Link>
+                  </a>
                 ) : (
-                  <Link
-                    to="/contact"
+                  <a href="#contact"
                     className="nav-links"
                     onClick={closeMobileMenu}
                   >
                     Contact Me
-                  </Link>
+                  </a>
                 )}
               </li>
             </ul>

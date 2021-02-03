@@ -12,7 +12,7 @@ import "../App.css";
 
 function Contact() {
   return (
-    <div className="section brown ">
+    <div className="section brown" id='contact'>
       <div className="section-content">
         <h1 className="heading">CONTACT ME</h1>
         <Form />

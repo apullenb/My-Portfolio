@@ -22,7 +22,7 @@ function Sections(props) {
   return (
     <div>
       <div
-        className={`section ${theme}`}
+        className={`section ${theme}`} id={headline.trim()}
         style={{
           flexDirection: imgStart === "start" ? "row-reverse" : "row",
         }}
