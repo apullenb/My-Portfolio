@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../Components/Header'
-import Projects from '../../Components/Projects/Projects'
+import Projects from '../../Components/Sections/Projects'
 import Sections from '../../Components/Sections/Sections'
 import sections from './Data'
 

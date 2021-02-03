@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "../Button/Button";
-import Projects from "../Projects/Projects";
+import Projects from "./Projects";
 import "./Sections.css";
 import Skills from "./Skills";
 
@@ -28,14 +28,8 @@ function Sections(props) {
       >
         <div className="section-content">
           <h1 className="heading">{headline}</h1>
-          <h4>{description}</h4>
-          <Link to="/">
-            <Button buttonSize="btn-wide" buttonColor="blue">
-              {buttonLabel}
-            </Button>
-          </Link>
+          <p>{description}</p>
         </div>
-
         <div className="section-img-box">
           <img src={img} alt={alt} />
         </div>

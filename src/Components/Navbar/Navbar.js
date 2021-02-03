@@ -27,7 +27,7 @@ useEffect(() => {
   window.addEventListener("resize", showButton);
   return (
     <>
-    <IconContext.Provider value={{color: '#fff'}}>
+    <IconContext.Provider value={{color: 'rgb(240, 237, 219)'}}>
       <div className="navbar">
         <div className="navbar-container containers">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
@@ -52,16 +52,14 @@ useEffect(() => {
                 Projects
               </Link>
             </li>
-            <li className="nav-btn">
+            <li className="nav-item">
               {button ? (
-                <Link to="/contact" className="btn-link" >
-                  <Button buttonStyle="btn-outline">Contact Me</Button>
+                <Link to="/contact" className="nav-links" >
+                 Contact Me
                 </Link>
               ) : (
-                <Link to="/contact" className="btn-link" onClick={closeMobileMenu}>
-                  <Button buttonStyle="btn-outline" buttonSize="btn-mobile">
+                <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
                     Contact Me
-                  </Button>
                 </Link>
               )}
             </li>
