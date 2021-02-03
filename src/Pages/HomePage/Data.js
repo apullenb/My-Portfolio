@@ -100,13 +100,12 @@ const skills =  [
     {
     theme: 'manilla',
     headline: 'About Me',
-    description: `My passion is helping businesses grow and being a part of their success. After years of working with WordPress and excelling at SEO, I wanted to dive deeper into programming and development, so I recently completed an intense programming course in order to expand my JavaScript skills and learn other skills as well. 
-
-    I am internally motivated and always eager to learn or improve. The best part about programming is the challenges that it provides, and the fact that there is always more to learn. My love of programming began when I was a kid and my dad bought a computer with a DOS operating system. While my brothers used it for games, I was fascinated by the fact that the machine had a language of its own and that I could learn to communicate with it. In high school, I signed up for every web development course that was offered, and have been doing web design both professionally and as a hobby ever since. 
-    
-    Expanding my programming skills has allowed me to create applications that help businesses run more efficiently and further improve user experience`,
+    description: `My passion is helping businesses grow and being a part of their success through strategic internet marketing. After years of working with small businesses and startups, I decided to narrow my focus and concentrate on coding and development, so I completed an intense training program to expand my programming skills.`, 
+    description2: `My love of coding began when I was a kid and my dad bought a computer with a DOS operating system. In high school, I signed up for every web development course that was offered, and have been doing web design both professionally and as a hobby ever since.`, 
+    description3:`I am internally motivated and always eager to learn or improve. I look forward to joining a team to create and collaborate with other developers. When I am not coding or planning my next project, you can find me spending time with my kids who share my love of all things retro. On the weekends, we enjoy sifting through thrift stores or antique shops looking for rare finds.`,
     imgStart: '',
     img:'/images/img8.jpg',
+    img2: '/images/retroback.jpg',
     alt: 'image',
     items: ''
 },
@@ -125,7 +124,7 @@ const skills =  [
     headline: 'Skills',
     buttonLabel: 'Contact Me',
     imgStart: 'start',
-    img:'/images/img3.jpg',
+    img:'/images/img9.jpg',
     alt: 'image',
     items: skills
 },

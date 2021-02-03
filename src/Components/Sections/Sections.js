@@ -11,7 +11,9 @@ function Sections(props) {
     imgStart,
     headline,
     description,
-    buttonLabel,
+    description2,
+    description3,
+    img2,
     img,
     alt,
     items,
@@ -25,13 +27,18 @@ function Sections(props) {
         style={{
           flexDirection: imgStart === "start" ? "row-reverse" : "row",
         }}
-      >
+      >  {img2 && <img src={img2} alt={alt} className='img2' />}
         <div className="section-content">
-          <h1 className="heading">{headline}</h1>
+       
+        <h1 className="heading">{headline}</h1>
+       
           <p>{description}</p>
+          <p>{description2}</p>
+          <p>{description3}</p>
         </div>
         <div className="section-img-box">
           <img src={img} alt={alt} id='b' />
+          
         </div>
         <div>
         {items.length > 8 ? ( <div className='skills-section'> 

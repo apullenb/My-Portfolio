@@ -79,13 +79,12 @@
     opacity: 0.1;
 }
 
-
 .contact {
     background-color:#3d4e53;
     color:rgb(209, 205, 181);
 }
 
-..contact .heading {
+.contact .heading {
     color: rgb(212, 210, 194);
     text-align: center;
     font-family: 'Righteous', 'cursive';

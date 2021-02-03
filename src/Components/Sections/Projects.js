@@ -8,9 +8,10 @@ function Projects(props) {
     <div className='project-box'>
       <div className='project-box-col'>
       <img src ={proj.image} alt={proj.name} />
-      
+      <div>
      <a href={proj.live}><Button buttonStyle='btn-primary' buttonSize='btn-wide' buttonColor="blue">View Live</Button></a>
       <a href={proj.repo}><Button buttonStyle='btn-primary' buttonSize='btn-wide' buttonColor="primary">View Repo</Button></a>
+      </div>
       </div>
      <div className='project-box-col'>
      <h3>{proj.name}</h3>

@@ -12,7 +12,7 @@ function Home() {
             <Header />
         <div>
            {sections.map((section, i) => {
-         return <Sections section={section}/>})}
+         return <Sections section={section} key={i}/>})}
          <Contact />
         </div>
 
