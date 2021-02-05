@@ -97,7 +97,7 @@ h3 {
 
 .img-box {
   width: 40%;
-  min-width: 200px;
+  min-width: 250px;
   padding: 6px 1px 1px 2px;
   z-index: 2;
   position: relative;
@@ -180,12 +180,49 @@ input[type="textarea"] {
   transition: all 0.4 ease-out;
 }
 
-@media screen and (max-width: 920px) {
-  .header-img2 {
-    display: none;
-  }
+@media screen and (max-width: 960px) {
+ 
   .App {
-    margin: 0 1px;
+    margin: 0 3%;
     padding-bottom: 1%;
   }
+}
+@media screen and (max-width: 640px) {
+    .App {
+        margin: 0 1%;
+        padding-bottom: 1%;
+      }
+      .header h1 {
+          font-size: 65px;
+      }
+      .header-img2 {
+        display: none;
+      }
+
+      .icons {
+        font-size: 30px;
+        padding-top: 15px;
+        margin: 20px 21px 2px 20px;
+      }
+      .icon {
+        padding: 3px 13px;
+        margin: 2px 1px 2px 9px;
+      }
+
+
+      .header {
+        padding: 15px 9px;
+        background-color: #88c0bd;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .header-content {
+        padding: 1px;
+        margin-left: 1px;
+      }
+
+
 }
