@@ -189,7 +189,7 @@ input[type="textarea"] {
 }
 @media screen and (max-width: 640px) {
     .App {
-        margin: 0 2px;
+        margin: 0 3px;
         padding-bottom: 1%;
       }
       .header h1 {
@@ -211,7 +211,7 @@ input[type="textarea"] {
 
 
       .header {
-        padding: 15px 9px;
+        padding: 15px 5px;
         background-color: #88c0bd;
         display: flex;
         flex-direction: row;
@@ -221,7 +221,7 @@ input[type="textarea"] {
       }
       .header-content {
         padding: 1px;
-        margin-left: 1px;
+        margin-left: 2px;
       }
 #contact span {
   font-size: 20px;

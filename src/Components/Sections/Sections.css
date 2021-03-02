@@ -221,7 +221,7 @@
   }
 
   .section-img-box {
-    width: 75%;
+    width: 78%;
     min-width: 260px;
     padding: 8px 12px;
   }
@@ -252,6 +252,16 @@
     margin: 5px;
     width: 94%;
   }
-
+  .section-img-box {
+    width: 58%;
+    min-width: 300px;
+    padding: 4px 2px;
+    z-index: 2;
+  }
+  .section img {
+    width: 100%;
+    margin: 10px 4px;
+    z-index: 2;
+  }
  
 }
