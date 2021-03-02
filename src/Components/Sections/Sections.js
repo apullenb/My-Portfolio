@@ -31,7 +31,6 @@ function Sections(props) {
         {img2 && <img src={img2} alt="retroback" className="img2" />}
         <div className="section-content">
           <h1 className="heading">{headline}</h1>
-
           <p>{description}</p>
           <p>{description2}</p>
           <p>{description3} </p>

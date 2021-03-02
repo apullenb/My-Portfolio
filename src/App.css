@@ -189,7 +189,7 @@ input[type="textarea"] {
 }
 @media screen and (max-width: 640px) {
     .App {
-        margin: 0 3px;
+        margin: 0 4px;
         padding-bottom: 1%;
       }
       .header h1 {

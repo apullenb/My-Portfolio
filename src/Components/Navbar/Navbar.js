@@ -29,7 +29,7 @@ function Navbar() {
         <div className="navbar">
           <div className="navbar-container containers" id='top'>
             <a href="#top" className="navbar-logo" onClick={closeMobileMenu}>
-              <FaFolderOpen /> Portfolio
+              <FaFolderOpen /> {' '} Portfolio
             </a>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
