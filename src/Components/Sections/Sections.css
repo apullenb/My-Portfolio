@@ -212,7 +212,7 @@
   background-color: rgb(202, 121, 96);
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1060px) {
     
   .section-content {
     padding: 3px;
@@ -236,7 +236,22 @@
     margin: 8px 10px;
     padding: 2px 8px;
   }
+  .m {
+    display: none
+  }
 }
-@media screen and (max-width: 960px) {
 
+@media screen and (max-width: 450px) {
+  .section {
+    padding: 0px 3px;
+    margin: 0px 2px;
+    width: 99%;
+  }
+  .section-content {
+    padding: 3px 1px;
+    margin: 5px;
+    width: 94%;
+  }
+
+ 
 }

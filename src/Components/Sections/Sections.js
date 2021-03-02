@@ -38,8 +38,8 @@ function Sections(props) {
           <span className="sign">{sign}</span>
         </div>
         <div className="section-img-box">
-          {img3 && <img src={img3} alt="image3" id="b" />}
-          <img src={img} alt={alt} id="b" />
+        <img src={img} alt={alt} id="b" />
+          {img3 && <img src={img3} alt="image3" id="b" className='m'/>}
         </div>
         <div>
           {items.length > 8 ? (

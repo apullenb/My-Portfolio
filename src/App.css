@@ -180,7 +180,7 @@ input[type="textarea"] {
   transition: all 0.4 ease-out;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1200px) {
  
   .App {
     margin: 0 3%;
@@ -189,7 +189,7 @@ input[type="textarea"] {
 }
 @media screen and (max-width: 640px) {
     .App {
-        margin: 0 1%;
+        margin: 0 2px;
         padding-bottom: 1%;
       }
       .header h1 {
@@ -223,6 +223,8 @@ input[type="textarea"] {
         padding: 1px;
         margin-left: 1px;
       }
-
+#contact span {
+  font-size: 20px;
+}
 
 }
