@@ -181,7 +181,7 @@
 .project-box {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   margin: 8px 2px;
   padding: 2px 1px;
