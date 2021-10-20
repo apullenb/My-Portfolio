@@ -15,6 +15,11 @@ const skills = [
     alt: "CSS",
   },
   {
+    name: "C#",
+    img: "./techicons/c-sharp-logo.png",
+    alt: "C Sharp",
+  },
+  {
     name: "React.Js",
     img: "./techicons/iconfinder_React.js.png",
     alt: "React",
@@ -25,14 +30,14 @@ const skills = [
     alt: "Node",
   },
   {
-    name: "Express",
-    img: "./techicons/express-logo.png",
-    alt: "Express",
+    name: "Angular",
+    img: "./techicons/angular-logo.png",
+    alt: "Angular",
   },
   {
-    name: "JQuery",
-    img: "./techicons/iconfinder_JQuery.png",
-    alt: "JQuery",
+    name: "SQL",
+    img: "./techicons/sql-logo.png",
+    alt: "PostgreSQL",
   },
   {
     name: "PostgreSQL",
@@ -40,15 +45,23 @@ const skills = [
     alt: "PostgreSQL",
   },
   {
+    name: "Express",
+    img: "./techicons/express-logo.png",
+    alt: "Express",
+  },
+  
+  {
+    name: "JQuery",
+    img: "./techicons/iconfinder_JQuery.png",
+    alt: "JQuery",
+  },
+
+  {
     name: "GitHub",
     img: "./techicons/github-logo.png",
     alt: "Github",
   },
-  {
-    name: "C#",
-    img: "./techicons/c-sharp-logo.png",
-    alt: "Heroku",
-  },
+
   {
     name: "Mocha",
     img: "./techicons/mocha-logo.png",
