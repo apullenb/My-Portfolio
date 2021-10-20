@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./profile pic.jpg";
+import profile from "./profile pic.png";
 import computer from "./img4.jpg";
 import { FaGithub, FaLink, FaLinkedin } from "react-icons/fa";
 function Header() {

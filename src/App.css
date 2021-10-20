@@ -31,7 +31,7 @@ body {
 }
 .header-content {
   padding: 5px;
-  margin-left: 8px;
+  margin-left: 5%;
   background-color: #88c0bd86;
   z-index: 2;
   position: relative;
@@ -96,7 +96,7 @@ h3 {
 }
 
 .img-box {
-  width: 40%;
+  width: 45%;
   min-width: 250px;
   padding: 6px 1px 1px 2px;
   z-index: 2;
@@ -104,8 +104,7 @@ h3 {
 }
 .header-img1 {
   width: 100%;
-  margin: 10px 1px;
-  border: rgb(122, 122, 122) 3px solid;
+  margin: 10px 5px;
 }
 .header-img2 {
   position: absolute;
@@ -186,6 +185,18 @@ input[type="textarea"] {
     margin: 0 3%;
     padding-bottom: 1%;
   }
+  
+.img-box {
+  width: 50%;
+  min-width: 250px;
+  padding: 1px 2px;
+  z-index: 2;
+  position: relative;
+}
+  .header-img1 {
+    width: 100%;
+    margin: 1px 0px;
+  }
 }
 @media screen and (max-width: 640px) {
     .App {
@@ -208,19 +219,30 @@ input[type="textarea"] {
         padding: 3px 13px;
         margin: 2px 1px 2px 9px;
       }
-
+ 
+      .img-box {
+        width: 90%;
+        min-width: 280px;
+        padding: 1px 2px;
+        z-index: 2;
+        position: relative;
+      }
+        .header-img1 {
+          width: 100%;
+          margin: 1px 5%;
+        }
 
       .header {
         padding: 15px 5px;
         background-color: #88c0bd;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
         justify-content: flex-start;
         align-items: center;
       }
       .header-content {
-        padding: 1px;
+        padding: 1px 8%;
         margin-left: 2px;
       }
 #contact span {
