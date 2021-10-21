@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import { Button } from "../Button/Button";
 
 function Projects(props) {
+
+
+
   const proj = props.project;
   return (
     <div className="project-section">
@@ -43,6 +46,7 @@ function Projects(props) {
           </div>
         </div>
       </div>
+     
     </div>
   );
 }
