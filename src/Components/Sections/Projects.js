@@ -12,7 +12,7 @@ function Projects(props) {
         <div className="project-box-col">
           <img src={proj.image} alt={proj.name} />
           <div>
-            <a href={proj.live}>
+            {proj.live && ( <a href={proj.live}>
               <Button
                 buttonStyle="btn-primary"
                 buttonSize="btn-wide"
@@ -20,7 +20,7 @@ function Projects(props) {
               >
                 View Live
               </Button>
-            </a>
+            </a>) }
             <a href={proj.repo}>
               <Button
                 buttonStyle="btn-primary"

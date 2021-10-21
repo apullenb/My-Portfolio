@@ -1,14 +1,10 @@
 import React from "react";
+import { Button } from "../Button/Button";
 import Projects from "./Projects";
 import "./Sections.css";
 import Skills from "./Skills";
 
 function Sections(props) {
-
- 
-
- 
-
   const {
     theme,
     imgStart,
@@ -27,7 +23,8 @@ function Sections(props) {
   return (
     <div>
       <div
-        className={`section ${theme}`} id={headline.trim()}
+        className={`section ${theme}`}
+        id={headline.trim()}
         style={{
           flexDirection: imgStart === "start" ? "row-reverse" : "row",
         }}
@@ -39,12 +36,11 @@ function Sections(props) {
           <p>{description}</p>
           <p>{description2}</p>
           <p>{description3} </p>
-          <span className={'sign'}>{sign}</span>
-      
+          <span className={"sign"}>{sign}</span>
         </div>
         <div className={`section-img-box `}>
-        <img src={img} alt={alt} id="b" />
-          {img3 && <img src={img3} alt="image3" id="b" className='m'/>}
+          <img src={img} alt={alt} id="b" />
+          {img3 && <img src={img3} alt="image3" id="b" className="m" />}
         </div>
         <div>
           {items.length > 8 ? (
@@ -56,17 +52,29 @@ function Sections(props) {
           ) : (
             ""
           )}
-          {items.length === 3 ? (
+          {items.length === 4 ? (
             <div className="projects-section">
               {items.map((item, i) => {
                 return <Projects project={item} key={i} />;
               })}
+              <a
+                href="https://github.com/apullenb/"
+                target="blank"
+                style={{
+                  alignSelf: "center",
+                  margin: "18px",
+                  filter: "drop-shadow(2px 2px 1px #94c2c0)",
+                }}
+              >
+                <Button buttonSize="btn-large" buttonColor="primary">
+                  More Projects on GitHub
+                </Button>
+              </a>
             </div>
           ) : (
             ""
           )}
         </div>
-        
       </div>
     </div>
   );

@@ -124,6 +124,21 @@ const projects = [
     live: "https://mindful-murex.vercel.app/",
     repo: "https://github.com/apullenb/mindful-app",
   },
+  {
+    name: "Password Reset Service",
+    description:
+      "SendGrid's email API is commonly used for email automation. Due to security reasons, their email API can't be called from the front-end, it must be wrapped in a backend service. This is an example of a password reset service using Node to wrap SendGrid's email API.",
+    technology: [
+      "Node.js",
+      "BCrypt",
+      "JWT",
+      "Express",
+      "K'Nex",
+    ],
+    date: "Sept 2020",
+    image: "./projects/curl-windows.png",
+    repo: "https://github.com/apullenb/Password-Reset",
+  },
 ];
 
 const sections = [
