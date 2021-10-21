@@ -76,6 +76,21 @@ const skills = [
 
 const projects = [
   {
+    name: "Password Reset Service",
+    description:
+      "SendGrid's email API is commonly used for email automation. Due to security reasons, their email API can't be called from the front-end, it must be wrapped in a backend service. This is an example of a password reset service using Node to wrap SendGrid's email API.",
+    technology: [
+      "Node.js",
+      "BCrypt",
+      "JWT",
+      "Express",
+      "K'Nex",
+    ],
+    date: "Sept 2020",
+    image: "./projects/curl-windows.png",
+    repo: "https://github.com/apullenb/Password-Reset",
+  },
+  {
     name: "Divvy Budget",
     description:
       "A simple, easy to use app that allows you to manage your bills for the month as well as track long-term debt. This app was designed to model a budget spreadsheet given to me by a financial advisor.",
@@ -123,22 +138,8 @@ const projects = [
     image: "./projects/mindfuldash.png",
     live: "https://mindful-murex.vercel.app/",
     repo: "https://github.com/apullenb/mindful-app",
-  },
-  {
-    name: "Password Reset Service",
-    description:
-      "SendGrid's email API is commonly used for email automation. Due to security reasons, their email API can't be called from the front-end, it must be wrapped in a backend service. This is an example of a password reset service using Node to wrap SendGrid's email API.",
-    technology: [
-      "Node.js",
-      "BCrypt",
-      "JWT",
-      "Express",
-      "K'Nex",
-    ],
-    date: "Sept 2020",
-    image: "./projects/curl-windows.png",
-    repo: "https://github.com/apullenb/Password-Reset",
-  },
+  }
+  
 ];
 
 const sections = [
