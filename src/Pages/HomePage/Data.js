@@ -130,9 +130,9 @@ const sections = [
   {
     theme: "manilla",
     headline: "About Me",
-    description: `My passion is helping businesses grow and being a part of their success. After years of working with small businesses and startups, I decided to narrow my focus and concentrate on coding and development, so I completed an intense training program to expand my programming skills. I am internally motivated and always eager to learn or improve. I look forward to joining a team to create and collaborate with other developers.`,
-    description2: `My love of coding began when I was a kid and my dad bought a computer with a DOS operating system and we spent hours working with it together. In high school, I signed up for every web development course that was offered, and have been doing web design both professionally and as a hobby ever since.`,
-    description3: `When I am not coding or planning my next project, you can find me spending time with my kids who share my love of all things retro. On the weekends, we enjoy sifting through thrift stores or antique shops looking for rare finds.`,
+    description: ` My love of programming began when I was a kid and my dad brought home an old computer and we spent hours working with it together. Coding has been a part of my life ever since, both professionally and as a hobby. After years of working with small businesses, helping them grow through web design & internet marketing, I decided to narrow my focus and concentrate on programming. In order to expand my skills and learn new technologies, I completed an intense training program and starting working full time as a software developer, and have worked on many side projects as well. `,
+    description2: ` Being internally motivated and always eager to learn or improve, I look forward to joining a team to create and collaborate with other developers while continuing to learn new technologies! `,
+    description3: ` When I am not coding or planning my next project, I enjoy spending time with my kids who share my love of all things retro. On the weekends, you can usually find us sifting through thrift stores or antique shops looking for rare finds.`,
     sign: "~ Andrea Pullen",
     imgStart: "",
     img: "/images/img13.jpg",
