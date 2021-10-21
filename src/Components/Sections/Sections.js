@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import Projects from "./Projects";
 import "./Sections.css";
 import Skills from "./Skills";
 
 function Sections(props) {
+
+  const [display, setDisplay] = useState('')
+
   const {
     theme,
     imgStart,

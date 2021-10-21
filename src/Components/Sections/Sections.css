@@ -133,6 +133,11 @@
   margin: 3px 4px;
   z-index: 2;
 }
+
+.hide {
+  display: none;
+}
+
 #b {
   box-shadow: 3px 4px 5px #609290;
   z-index: 2;
@@ -231,7 +236,8 @@
     margin: 2px 4px;
   }
   
-  .m {
+  
+  .m  {
     display: none
   }
 }
