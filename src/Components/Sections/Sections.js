@@ -5,7 +5,10 @@ import Skills from "./Skills";
 
 function Sections(props) {
 
-  const [display, setDisplay] = useState('')
+  const [display, setDisplay] = useState('hide');
+  const [buttonText, setButtonText] = ('Expand');
+
+  const handleDisplay = () => { setDisplay('')}
 
   const {
     theme,
@@ -34,16 +37,17 @@ function Sections(props) {
         {img2 && <img src={img2} alt="retroback" className="img2" />}
         <div className="section-content">
           <h1 className="heading">{headline}</h1>
-          <p>{description}</p>
-          <p>{description2}</p>
-          <p>{description3} </p>
-          <span className="sign">{sign}</span>
+          <p className=''>{description}</p>
+          <p className={display}>{description2}</p>
+          <p className={display}>{description3} </p>
+          <span className={`sign ${display}`}>{sign}</span>
+          <button className={buttonText}>Expand</button>
         </div>
-        <div className="section-img-box">
+        <div className={`section-img-box `}>
         <img src={img} alt={alt} id="b" />
-          {img3 && <img src={img3} alt="image3" id="b" className='m'/>}
+          {img3 && <img src={img3} alt="image3" id="b" className={`m ${display}`}/>}
         </div>
-        <div>
+        <div className={display}>
           {items.length > 8 ? (
             <div className="skills-section">
               {items.map((item, i) => {
@@ -63,6 +67,7 @@ function Sections(props) {
             ""
           )}
         </div>
+        
       </div>
     </div>
   );
